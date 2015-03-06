@@ -1,35 +1,18 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PolishParentGroup.SiteMaster" %>
-
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
     <title>Polish Parents Group</title>
         <meta name="keywords" content="" />
 		<meta name="description" content="" />
-<!-- 
-Urbanic Template 
-http://www.templatemo.com/preview/templatemo_395_urbanic 
--->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--<link rel="shortcut icon" href="PUT YOUR FAVICON HERE">-->
-        
-        <!-- Google Web Font Embed -->
+        <link href="css/style.css"  rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-        
-        <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
-
-        <!-- Custom styles for this template -->
         <link href="js/colorbox/colorbox.css"  rel='stylesheet' type='text/css'>
-        <link href="css/templatemo_style.css"  rel='stylesheet' type='text/css'>
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
+      
+         
 </head>
 <body>
     <form runat="server">
@@ -42,7 +25,7 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                     </div>
                     <div id="email" class="pull-right">
                             <img src="images/email.png" alt="email"/>
-                            contact@website.com
+                            contact@polishparentgroup.com
                     </div>
                 </div>
             </div>
@@ -67,19 +50,16 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                 <li><a href="#templatemo-welcome">ABOUT</a></li>
                                 <li><a href="#templatemo-portfolio">GALLERY</a></li>
                                 <li><a href="#templatemo-blog">EVENTS</a></li>
-                               <%-- <li><a rel="nofollow" href="http://www.google.com" class="external-link">EXTERNAL</a></li>--%>
                                 <li><a href="#templatemo-contact">CONTACT</a></li>
                             </ul>
-                        </div><!--/.nav-collapse -->
-                    </div><!--/.container-fluid -->
-                </div><!--/.navbar -->
-            </div> <!-- /container -->
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </div>
         
-        <div>
-            <!-- Carousel -->
+        <div>            
             <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#templatemo-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#templatemo-carousel" data-slide-to="1"></li>
@@ -93,18 +73,17 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                 <p>HIGHTOWN,WREXHAM</p>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div>                    
                     <div class="item">
                         <div class="container">
                                 <div class="carousel-caption">
                                     <div class="col-sm-6 col-md-6">
                                     	<h1>CONTACT</h1>
-                                        <p>Suspendisse pellentesque, odio vel ultricies interdum, mauris nulla ullamcorper magna, non aliquet odio velit aliquam augue.</p>
+                                        <p>If you would like to know more about us please conact and we will get in touch.</p>
                                     </div>
                                     <div class="col-sm-6 col-md-6">
                                     	<h1>JOIN US</h1>
-                                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam mattis fringilla urna.</p>
+                                        <p>Contact and visit us and you'll be able to join us.</p>
                                     </div>
                                 </div>
                         </div>
@@ -113,21 +92,20 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                             <div class="container">
                                 <div class="carousel-caption">
                                 	<h1>HAVE FUN</h1>
-                                    <p>Suspendisse pellentesque, odio vel ultricies interdum, mauris nulla ullamcorper magna, non aliquet odio velit aliquam augue.</p>
-                                    <%--<p><a class="btn btn-lg btn-orange" href="#" role="button">Read More</a></p>--%>
+                                    <p>We have lot of fun activities through out the year for your whole family.</p>
                                 </div>
                             </div>
                         </div>
                 </div>
                 <a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
                 <a class="right carousel-control" href="#templatemo-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div><!-- /#templatemo-carousel -->
+            </div>
         </div>
 
         <div class="templatemo-welcome" id="templatemo-welcome">
             <div class="container">
                 <div class="templatemo-slogan text-center">
-                    <span class="txt_darkgrey">Welcome to Polish Parents Group</span><p class="txt_slogan"><i>Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam metus libero mauriec ignissim fermentum.</i></p>
+                    <span class="txt_darkgrey">Welcome to Polish Parents Group</span><p class="txt_slogan"><i>We are a small gropu of parents, who are joined togther to establish a parent group in wrexham.</i></p>
                 </div>	
             </div>
         </div>
@@ -141,7 +119,9 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                 <img src="images/leaf.png" alt="icon" />
                                 <span class="templatemo-service-item-header">ABOUT US</span>
                             </div>
-                            <p>Nam porta adipiscing tortor, eget rutrum turpis bibendum ut. Donec eu lacus in diam euismod imperdiet eu ut turpis. Morbi felis orci, tincidunt pretium laoreet id, euismod et lacus. Praesent aliquet magna vitae mi elementum pharetra.</p>
+                            <p>Content.........</p>
+                            <p>Content.........</p>
+                            <p>Content.........</p>
                             <div class="text-center">
                             	<a href="#" 
                                 	class="templatemo-btn-read-more btn btn-orange">READ MORE</a>
@@ -149,15 +129,16 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                             <br class="clearfix"/>
                         </div>
                         <div class="clearfix"></div>
-                    </div>
-                    
+                    </div>                    
                     <div class="col-md-4">
                         <div class="templatemo-service-item" >
                             <div>
                                 <img src="images/mobile.png" alt="icon"/>
                                 <span class="templatemo-service-item-header">WHAT WE DO</span>
                             </div>
-							<p><a rel="nofollow" href="http://www.templatemo.com/preview/templatemo_395_urbanic">Urbanic</a> is free responsive mobile website template by templatemo. Credits go to <a rel="nofollow" href="http://getbootstrap.com">Bootstrap</a> for responsive layout and <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for images used in this template. Curabitur non eros ut dolor tincidunt interdum sit amet vitae quam.</p>
+							<p>Content.........</p>
+                            <p>Content.........</p>
+                            <p>Content.........</p>
                             <div class="text-center">
                                 <a href="#" 
                                 	class="templatemo-btn-read-more btn btn-orange">READ MORE</a>
@@ -173,7 +154,9 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                 <img src="images/battery.png" alt="icon"/>
                                 <span class="templatemo-service-item-header">HOW TO JOIN</span>
                             </div>
-                            <p>Morbi imperdiet ipsum sit amet dui pharetra, vulputate porta neque tristique. Quisque id turpis tristique, venenatis erat sit amet, venenatis turpis. Ut tellus ipsum, posuere bibendum consectetur vel, egestas sit amet erat. Morbi rhoncus leo fermentum viverra.</p>
+                            <p>Content..........</p>
+                            <p>Content.........</p>
+                            <p>Content.........</p>
                             <div class="text-center">
                                 <a href="#" 
                                 	class="templatemo-btn-read-more btn btn-orange">READ MORE</a>
@@ -185,9 +168,6 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                 </div>
             </div>
         </div>
-
-        <!-- /.templatemo-team -->
-
         <div id="templatemo-portfolio" >
             <div class="container">
                 <div class="row">
@@ -203,35 +183,22 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                             <a class="active" href=".gallery">All</a> / <a href=".gallery-design">Awards</a>/ <a href=".gallery-graphic">Events</a> / <a href=".gallery-inspiration">PlayGroup</a> / <a href=".gallery-creative">DayOuts</a>							
                         </div>
                     </div>
-                </div> <!-- /.row -->
-
-
+                </div>
                 <div class="clearfix"></div>
                 <div class="text-center">
                     <ul class="templatemo-project-gallery" >
                         <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic" >
                             <a class="colorbox" href="images/g1-full.gif" data-group="gallery-graphic">
                                 <div class="templatemo-project-box">
-
                                     <img src="images/g1.gif" class="img-responsive" alt="gallery" />
 
-                                   <%-- <div class="project-overlay">
-                                        <h5>Graphic</h5>
-                                        <hr />
-                                        <h4>TEA POT</h4>
-                                    </div>--%>
                                 </div>
                             </a>
                         </li>
                         <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-creative" >
-                            <a class="colorbox" href="images/g2-full.jpg" data-group="gallery-creative">
+                            <a class="colorbox" href="images/g2.jpg" data-group="gallery-creative">
                                 <div class="templatemo-project-box">
                                     <img src="images/g2.jpg" class="img-responsive" alt="gallery" />
-                                  <%--  <div class="project-overlay">
-                                        <h5>Creative</h5>
-                                        <hr />
-                                        <h4>BREAKFAST</h4>
-                                    </div>--%>
                                 </div>
                             </a>
                         </li>
@@ -239,11 +206,6 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                             <a class="colorbox" href="images/g3-full.jpg" data-group="gallery-inspiration">
                                 <div class="templatemo-project-box">
                                     <img src="images/g3.jpg" class="img-responsive" alt="gallery" />
-                                   <%-- <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>GREEN COLORS</h4>
-                                    </div>--%>
                                 </div>
                             </a>
                         </li>
@@ -251,100 +213,40 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                             <a class="colorbox" href="images/g4-full.jpg" data-group="gallery-design">
                                 <div class="templatemo-project-box">
                                     <img src="images/g4.jpg" class="img-responsive" alt="gallery" />
-                                   <%-- <div class="project-overlay">
-                                        <h5>Web Design</h5>
-                                        <hr />
-                                        <h4>CAMERA</h4>
-                                    </div>--%>
                                 </div>
                             </a>
                         </li>
                         <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                            <a class="colorbox" <%--href="images/full-gallery-image-5.jpg"--%> data-group="gallery-inspiration">
+                            <a class="colorbox" href="images/g2.jpg" data-group="gallery-inspiration">
                                 <div class="templatemo-project-box">
-                                    <img src="<%--images/gallery-image-5.jpg--%>" class="img-responsive" alt="gallery" />
-                                    <%--<div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>PLANT</h4>
-                                    </div>--%>
+                                    <img src="images/g2.jpg" class="img-responsive" alt="gallery" />
                                 </div>
                             </a>
                         </li>
                         <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                            <a class="colorbox" <%--href="images/full-gallery-image-6.jpg"--%> data-group="gallery-inspiration">
+                            <a class="colorbox" href="images/g1.gif" data-group="gallery-inspiration">
                                 <div class="templatemo-project-box">
-                                    <img src="<%--images/gallery-image-6.jpg--%>" class="img-responsive" alt="gallery" />
-                                   <%-- <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>CABLE TRAIN</h4>
-                                    </div>--%>
+                                    <img src="images/g1.gif" class="img-responsive" alt="gallery" />
                                 </div>
                             </a>
-                        </li>
-                        
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-design" >
-                            <a class="colorbox" <%--href="images/full-gallery-image-7.jpg"--%> data-group="gallery-design">
-                                <div class="templatemo-project-box">
-                                    <img src="<%--images/gallery-image-7.jpg--%>" class="img-responsive" alt="gallery" />
-                                   <%-- <div class="project-overlay">
-                                        <h5>Web Design</h5>
-                                        <hr />
-                                        <h4>CITY</h4>
-                                    </div>--%>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-creative" >
-                            <a class="colorbox" <%--href="images/full-gallery-image-8.jpg"--%> data-group="gallery-creative">
-                                <div class="templatemo-project-box">
-                                    <img src="<%--images/gallery-image-8.jpg--%>" class="img-responsive" alt="gallery" />
-                                   <%-- <div class="project-overlay">
-                                        <h5>Creative</h5>
-                                        <hr />
-                                        <h4>BIRDS</h4>
-                                    </div>--%>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-graphic" >
-                            <a class="colorbox"<%-- href="images/full-gallery-image-9.jpg"--%> data-group="gallery-graphic">
-                                <div class="templatemo-project-box">
-                                    <img src="<%--images/gallery-image-9.jpg--%>" class="img-responsive" alt="gallery" />
-                                   <%-- <div class="project-overlay">
-                                        <h5>Graphic</h5>
-                                        <hr />
-                                        <h4>NATURE</h4>
-                                    </div>--%>
-                                </div>
-                            </a>
-                        </li>
+                        </li>        
                         
                         <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-inspiration" >
-                            <a class="colorbox" <%--href="images/full-gallery-image-10.jpg"--%> data-group="gallery-inspiration">
+                            <a class="colorbox"  data-group="gallery-inspiration">
                                 <div class="templatemo-project-box">
-                                    <img src="<%--images/gallery-image-10.jpg--%>" class="img-responsive" alt="gallery" />
-                                    <%--<div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>DOGGY</h4>
-                                    </div>--%>
+                                    <img src="<%--images/g1.gif--%>" class="img-responsive" alt="gallery" />
+                                  
                                 </div>
                             </a>
                         </li>
-
-                    </ul><!-- /.gallery -->
+                    </ul>
                 </div>
                 <div class="clearfix"></div>
                 <div class="row text-center">
                     <a class="btn_loadmore btn btn-lg btn-orange" href="#" role="button">LOAD MORE</a>
                 </div>
-            </div><!-- /.container -->
-        </div> <!-- /.templatemo-portfolio -->
-
+            </div>
+        </div> 
         <div id="templatemo-blog">
             <div class="container">
                 <div class="row">
@@ -355,8 +257,7 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                         </div>
                     </div>
                     <br class="clearfix"/>
-                </div>
-                
+                </div>                
                 <div class="blog_box">
                     <div class="col-sm-5 col-md-6 blog_post">
                         <ul class="list-inline">
@@ -375,11 +276,13 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                 </div>
                                 <div class="clearfix"> </div>
                                 <p class="blog_text">
-                                    Aliquam quis rutrum risus, ut condimentum ipsum. Nullam aliquet libero augue, eget auctor felis vulputate id. Proin a enim eu libero ornare malesuada. Sed iaculis fringilla lacinia. Sed laoreet lectus vitae [...]
+                                 Content...........
                                 </p>
+                                <p>Content.........</p>
+                                <p>Content......... [...]</p>
                             </li>
                         </ul>
-                    </div> <!-- /.blog_post 1 -->
+                    </div> 
                     
                     <div class="col-sm-5 col-md-6 blog_post">
                         <ul class="list-inline">
@@ -396,11 +299,13 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                 </div>
                                 <div class="clearfix"> </div>
                                 <p class="blog_text">
-                                        Morbi imperdiet ipsum sit amet dui pharetra, vulputate porta neque tristique. Quisque id turpis tristique, venenatis erat sit amet, venenatis turpis. Ut tellus ipsum, posuere bibendum [...]
+                                 Content...........
                                 </p>
+                                <p>Content.........</p>
+                                <p>Content......... [...]</p>
                             </li>
                         </ul>	
-                    </div><!-- /.blog_post 2 -->
+                    </div>
                     
                     <div class="templatemo_clear"></div>
                     
@@ -419,11 +324,13 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                 </div>
                                 <div class="clearfix"> </div>
                                 <p class="blog_text">
-                                        Fusce molestie tellus risus, id commodo turpis convallis id. Morbi mattis sapien sapien, vitae lacinia ante interdum sit amet. Praesent eget varius diam, ac tempor est. Mauris at scelerisque magna [...]
+                                 Content...........
                                 </p>
+                                <p>Content.........</p>
+                                <p>Content......... [...]</p>
                             </li>
                         </ul>	
-                    </div><!-- /.blog_post 3 -->
+                    </div>
                     
                     <div class="col-sm-5 col-md-6 blog_post">
                         <ul class="list-inline">
@@ -442,16 +349,17 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                 </div>
                                 <div class="clearfix"> </div>
                                 <p class="blog_text">
-                                    In venenatis sodales purus a cursus. Ut consectetur, libero ac elementum tristique, enim ante aliquet mauris, scelerisque congue magna neque ac purus. Aliquam facilisis volutpat odio [...]
+                                 Content...........
                                 </p>
+                                <p>Content.........</p>
+                                <p>Content......... [...]</p>
                             </li>
                         </ul>
-                    </div> <!-- /.blog_post 4 -->
+                    </div> 
                     
                 </div>
             </div>
         </div>
-
         <div id="templatemo-contact">
             <div class="container">
                 <div class="row">
@@ -468,10 +376,10 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                         <i>You can find us on Fusilier Way, Hightown, Wrexham LL13 7YF</i>
                     </div>
                     <div class="col-md-4 contact_right">
-                        <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit pendisse as a molesti.</p>
+                        <p>Please use the following information to contct us.</p>
                         <p><img src="images/location.png" alt="icon 1" />Fusilier Way, Hightown, Wrexham LL13 7YF</p>
                         <p><img src="images/phone1.png"  alt="icon 2" /> 07775885125</p>
-                        <p><img src="images/globe.png" alt="icon 3" /><a class="link_orange" href="#"><span class="txt_orange">www.company.com</span></a></p>
+                        <p><img src="images/globe.png" alt="icon 3" /><a class="link_orange" href="#"><span class="txt_orange">www.polishparentgroup.com</span></a></p>
                         <form class="form-horizontal" action="#">
                             <div class="form-group">
                                 <input type="email" class="form-control" placeholder="Your Name..." maxlength="40" />
@@ -486,9 +394,9 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                         </form>
                         	
                     </div>
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /#templatemo-contact -->
+                </div>
+            </div>
+        </div>
 
 
         <div class="templatemo-footer" >
@@ -502,12 +410,7 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                     <a href="#">
                                         <span class="social-icon-fb"></span>
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="social-icon-rss"></span>
-                                    </a>
-                                </li>
+                                </li>                               
                                 <li>
                                     <a href="#">
                                         <span class="social-icon-twitter"></span>
@@ -517,12 +420,7 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                                     <a href="#">
                                         <span class="social-icon-linkedin"></span>
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="social-icon-dribbble"></span>
-                                    </a>
-                                </li>
+                                </li>                              
                             </ul>
                             <div class="height30"></div>
                             <a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top">Back To Top</a>
@@ -536,14 +434,11 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                 </div>
             </div>
         </div>
-
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js"  type="text/javascript"></script>
         <script src="js/stickUp.min.js"  type="text/javascript"></script>
         <script src="js/colorbox/jquery.colorbox-min.js"  type="text/javascript"></script>
         <script src="js/templatemo_script.js"  type="text/javascript"></script>
-		<!-- templatemo 395 urbanic -->
-
     </form>
 </body>
 </html>
